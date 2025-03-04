@@ -18,5 +18,6 @@ public class ComputerRepairRequestTest {
     @DisplayName("Al doilea test")
     public void testSecond(){
         assertEquals(0,new ComputerRepairRequest().getID());
+        assertEquals("", new ComputerRepairRequest().getModel());
     }
 }
